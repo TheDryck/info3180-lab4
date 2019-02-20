@@ -1,3 +1,17 @@
 body {
     padding-top: 5rem;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 20%;*/
+    grid-auto-flow: row; 
+    width: 100%;
+    grid-gap: 5%;
+}
+img{
+    
+    max-width: 400px;
+    height: auto;;
+    
+}

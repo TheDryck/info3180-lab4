@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="grid">
+        
+            {% for i in images%}
+            <div class="wrap">
+               <img src="{{ url_for('static', filename="uploads/" + i) }}" />
+            </div>
+            {% endfor %}
+        
+    </div>
+
+{% endblock %}
